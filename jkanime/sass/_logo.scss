@@ -1,0 +1,26 @@
+.logo {
+  &__imagen {
+    max-width: 15rem;
+    transition: all 0.7s ease-in-out;
+
+    &:hover {
+      transform: rotate(-5deg);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .logo {
+    &__imagen {
+      max-width: 18rem;
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .logo {
+    &__imagen {
+      max-width: 13rem;
+    }
+  }
+}

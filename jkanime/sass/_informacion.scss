@@ -1,0 +1,48 @@
+.informacion{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  margin-top: 2rem;
+  &__lista{
+    line-height: 2.5;
+    list-style-type:disc;
+    padding-left: 2rem;
+  }
+
+  &__listas{
+    font-size: 2rem;
+
+    span{
+      color: $cyan
+    }
+
+    a{
+      color: $cyan;
+      transition: all 0.5s;
+
+      &:hover{
+        color: $orange;
+      }
+    }
+  }
+
+  .boton{
+    padding: 1rem;
+    background-color: $red;
+    border-radius: 0.5rem;
+    color: $white;
+  }
+
+  &__link{
+    margin-top: 2rem;
+    a{
+      color: $cyan;
+      
+      transition: all 0.5s;
+
+      &:hover{
+        color: $orange;
+      }
+    }
+  }
+}

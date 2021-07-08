@@ -1,0 +1,31 @@
+.prueba__glosario {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .prueba__glosario {
+    padding: 2rem;
+    display: block;
+    &-lista {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &-listado {
+      transition: all 0.3s ease-in-out;
+      a {
+        padding: 1rem;
+        display: inline-block;
+        color: $white;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        background-color: white;
+        a {
+          color: $gray;
+        }
+      }
+    }
+  }
+}

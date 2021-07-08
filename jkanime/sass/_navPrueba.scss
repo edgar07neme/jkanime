@@ -1,0 +1,34 @@
+.prueba__nav {
+  display: none;
+}
+@media (max-width: 992px) {
+  .prueba__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    &-sitios {
+      padding: 2rem;
+      margin-right: 1rem;
+      background-color: $trasparente1;
+      font-size: 1.3rem;
+      border-radius: 1.3rem;
+      cursor: pointer;
+      transition: all 0.7s ease-in-out;
+
+      a {
+        color: $white;
+        font-weight: 900;
+
+        i {
+          margin-right: 0.5rem;
+        }
+      }
+
+      &:hover {
+        background-color: $trasparente3;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.seccion {
+  background-color: $blueClaro;
+}
+.glosario {
+  background-color: $trasparente1;
+
+  &__contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__lista {
+    display: flex;
+    align-items: center;
+  }
+
+  &__listado {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+    a {
+      color: $white;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+      background-color: $white;
+      a {
+        color: $gray;
+      }
+    }
+  }
+
+  &__filtro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+
+    p {
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  &__genero {
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .glosario {
+    &__listado {
+      font-size: 1.7rem;
+    }
+    &__filtro {
+      font-size: 1.4rem;
+    }
+  }
+}
+@media (max-width: 1025px) {
+  .glosario {
+    &__listado {
+      font-size: 1.6rem;
+    }
+    &__filtro {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .glosario {
+    display: none;
+  }
+}

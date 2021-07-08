@@ -1,0 +1,31 @@
+.titulos {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  &__figura {
+    background-color: $light;
+
+    &-img {
+      padding: 1rem 2rem;
+    }
+  }
+  &__alternos {
+    margin-top: 1rem;
+    background-color: $light;
+
+    &-titulo {
+      padding: 0.5rem;
+    }
+    ul {
+      padding: 2rem 0.5rem;
+      font-size: 1.8rem;
+
+      li {
+        margin-bottom: 1rem;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

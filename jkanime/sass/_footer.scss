@@ -1,0 +1,36 @@
+.footer {
+  background-color: $bluefooter;
+  margin-top: 2rem;
+  height: 17rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.enlaces {
+  &__link {
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 0.5rem 2rem;
+    background-color: $blueClaro;
+    color: $white;
+    font-weight: 700;
+    border-radius: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+.arriba {
+  display: inline-block;
+  i {
+    font-size: 2rem;
+    padding: 2rem;
+    color: $white;
+    background-color: $orange;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

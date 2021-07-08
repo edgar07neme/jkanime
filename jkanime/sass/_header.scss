@@ -1,0 +1,12 @@
+.header {
+  background-color: $blueClaro;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .header {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+  }
+}

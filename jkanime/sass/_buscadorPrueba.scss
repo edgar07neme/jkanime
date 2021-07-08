@@ -1,0 +1,36 @@
+.prueba__busqueda {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .prueba__busqueda {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    &-input {
+      background-color: $white;
+      border: none;
+      position: relative;
+      border-radius: 5rem;
+      width: 95%;
+      height: 6rem;
+      color: #9da1a4;
+      padding-left: 4rem;
+      outline: none;
+    }
+
+    a {
+      i {
+        position: absolute;
+        color: $blue;
+        right: 3rem;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 2rem;
+        opacity: 0.5;
+      }
+    }
+  }
+}

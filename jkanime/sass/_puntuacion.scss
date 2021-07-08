@@ -1,0 +1,43 @@
+.puntuacion{
+ display: inline-block;
+ background-color: $orange;
+ text-align: center;
+ 
+ position: relative;
+ color: $white;
+ font-weight: 700;
+ font-size: 2rem;
+ 
+ margin-top: 2rem;
+span{
+  position: absolute;
+  padding: 1.5rem;
+  background-color: $trasparente3;
+  left: 0;
+  top: 0%;
+  border-radius: 1rem 0 0 1rem;
+}
+p{
+  margin-left: 4rem;
+  i{
+    margin-left: 1rem;
+  }
+}
+  
+}
+.primario{
+  padding: 1.5rem 4rem;
+  
+}
+
+.border-1{
+  border-radius: 1rem;
+}
+
+.border-2{
+  border-radius: 1rem 0 0 1rem;
+}
+.alterno{
+  padding: 1.5rem 1rem;
+  border-radius: 0 1rem 1rem 0;
+}
